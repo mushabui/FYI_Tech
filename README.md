@@ -20,8 +20,7 @@ Beberapa fitur yang ada di website FYI Tech antara lain adalah:
     3. Detail Spesifikasi dan Gambar.
     4. Rekomendasi Laptop berdasarkan kategori.
     5. Forum Diskusi.
-    6. Tips dan Trik.
-    7. Kabar terbaru dunia perlaptopan.
+    
     
 # Design Control
 
