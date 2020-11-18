@@ -22,10 +22,10 @@ Beberapa fitur yang ada di website FYI Tech antara lain adalah:
     5. Forum Diskusi.
     
     
-# Design Control
+## Design Control
 
-# Use Case
+## Use Case
 
-# Design Mockup
+## Design Mockup
 
-## Link Record Presentation
+
