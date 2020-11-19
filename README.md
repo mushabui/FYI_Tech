@@ -49,6 +49,9 @@ Beberapa fitur yang ada di website FYI Tech antara lain adalah:
 ### Mini Report
 
 [Report Phase 1](https://github.com/mushabui/FYI_Tech/tree/main/Report%20Phase%201)
+
 [Report Phase 2](https://github.com/mushabui/FYI_Tech/tree/main/Report%20Phase%202)
+
 [Diagram](https://github.com/mushabui/FYI_Tech/tree/main/Diagram)
+
 [Video Presentasi Portofolio](https://youtu.be/mzzoP064sZM)
