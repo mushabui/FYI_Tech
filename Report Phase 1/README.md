@@ -58,3 +58,7 @@ Melalui interview tersebut kami juga mengetahui fitur-fitur yang dibutuhkan oleh
     2.	Fitur membandingkan laptop.
     3.	Fitur Spesifikasi yang lengkap dan detail.
     4.	Fitur filter dan pencarian yang mudah dan sesuai.
+
+### Detail Kuisioner dan Hasil Respon
+
+Untuk Detail Kuisioner dan hasilnya dapat dilihat [kuisioner](https://bit.ly/KuisionerWebFYITech) dan [respon](https://docs.google.com/spreadsheets/d/1wznVxOhgo5XbkIH5WXz8-UyzuJzfLMLO9C2HSGCn1Fc/edit?usp=sharing)
