@@ -11,3 +11,7 @@ Secara keseluruhan tidak terdapat kekurangan dalam fitur yang kami terapkan dan 
 Untuk detail presentasi dan hasil kuisioner bisa dilihat [presentasi]( https://youtu.be/mzzoP064sZM) dan [kuisioner tahap 2](https://docs.google.com/spreadsheets/d/1iran8v4MlJfQrBQBEDFMfe9LEo8aZsKcfywfZBY53U4/edit?usp=sharing)
 
 Detail Pertanyaan juga dapat dilihat [disini]( https://docs.google.com/forms/d/1IpgR24ORUL3VwlOXFIHt6QxysvfrglZ2-ax4sOeHa08/prefill)
+
+### B. Kesimpulan
+
+Dari hasil presentasi dan kuisioner tahap dua didapatkan bahwa responden merasa puas dengan hasil rancangan web kami yang sesuai dengan ekspektasi user. Ada request tambahan dari user untuk fitur komparasi laptop menjadi lebih dari dua laptop yang dibandingkan namun selain itu tidak ada lagi dan cukup puas dengan hasil yang kami buat.
