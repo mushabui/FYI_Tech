@@ -17,19 +17,19 @@ Beberapa fitur yang ada di website FYI Tech antara lain adalah:
 
 1. Pencarian Laptop
 
-        Disini user bisa melakukan pencarian laptop melalui filter dan kategori ataupun rekomendasi laptop dihalaman awal.
+      > Disini user bisa melakukan pencarian laptop melalui filter dan kategori ataupun rekomendasi laptop dihalaman awal.
     
 2. Komparasi Laptop
 
-        User bisa melakukan komparasi antara dua laptop.
+      >User bisa melakukan komparasi antara dua laptop.
         
 3. Detail Review dan Spesifikasi.
 
-        Disini user akan diberikan Spesifikasi lengkap juga hasil tes dari laptop yang dipilih, user juga akan diberikan sambungan link online shop yang menjual produk tersebut.
+      >Disini user akan diberikan Spesifikasi lengkap juga hasil tes dari laptop yang dipilih, user juga akan diberikan sambungan link online shop yang menjual produk tersebut.
 
 4. Forum Diskusi
 
-        Admin dan User bisa melakukan diskusi melalui forum. Baik admin atau user bisa melakukan CRUD diforum diskusi, diskusi yang ada bisa dilakukan melalui pencarian diskusi dan filter.
+      >Admin dan User bisa melakukan diskusi melalui forum. Baik admin atau user bisa melakukan CRUD diforum diskusi, diskusi yang ada bisa dilakukan melalui pencarian diskusi dan filter.
     
     
 ## Use Case
