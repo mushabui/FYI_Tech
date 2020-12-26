@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="jumbotron bg-white">
+    <div class="container border">
+        <div class="row">
+            
+            <div class="col-lg-6">
+                <h2 class="display-4"><img src="{{url_for('static', filename='img/fyi_logo1.png')}}" alt="FYI_TECH" width= "250px"></h2>
+                <p class="lead">Memberikan informasi tentang ulasan laptop, harga laptop terbaruspesifikasi laptop berita tentang teknologi dan tips juga trik seputar laptop.</p>
+                
+            </div>
+            <div class="col-lg-6">
+            <img src="{{url_for('static', filename='img/iklan.png')}}" alt="FYI_TECH" width= "100%">
+            </div>
+            
+        </div>           
+    </div>
+</div>
+
+<div class="container border">
+    <nav class="navbar nav justify-content-center">
+        <span class="navbar-brand mb-0 h1">Brand</span>
+    </nav>
+    <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-2"><img src="{{url_for('static', filename='img/brand/asus.jpg')}}" alt="FYI_TECH" width= "100%"></div>
+        <div class="col-lg-2"><img src="{{url_for('static', filename='img/brand/brand.jpg')}}" alt="FYI_TECH" width= "100%"></div>
+        <div class="col-lg-2"><img src="{{url_for('static', filename='img/brand/acer.jpg')}}" alt="FYI_TECH" width= "100%"></div>
+        <div class="col-lg-2"><img src="{{url_for('static', filename='img/brand/lenovo.jpg')}}" alt="FYI_TECH" width= "100%"></div>
+        <div class="col-lg-2"></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-2"></div>
+
+        <div class="col-lg-2"><img src="{{url_for('static', filename='img/brand/dell.jpg')}}" alt="FYI_TECH" width= "100%"></div>
+        <div class="col-lg-2"><img src="{{url_for('static', filename='img/brand/hp.jpg')}}" alt="FYI_TECH" width= "100%"></div>
+        <div class="col-lg-2"><img src="{{url_for('static', filename='img/brand/rog.jpg')}}" alt="FYI_TECH" width= "100%"></div>
+        <div class="col-lg-2"><img src="{{url_for('static', filename='img/brand/sony.jpg')}}" alt="FYI_TECH" width= "100%"></div>
+        
+        <div class="col-lg-2"></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-2"></div>
+
+        <div class="col-lg-2"><img src="{{url_for('static', filename='img/brand/msi.jpg')}}" alt="FYI_TECH" width= "100%"></div>
+        <div class="col-lg-2"><img src="{{url_for('static', filename='img/brand/mi.jpg')}}" alt="FYI_TECH" width= "100%"></div>
+        <div class="col-lg-2"><img src="{{url_for('static', filename='img/brand/toshiba.jpg')}}" alt="FYI_TECH" width= "100%"></div>
+        <div class="col-lg-2"><img src="{{url_for('static', filename='img/brand/huawei.jpg')}}" alt="FYI_TECH" width= "100%"></div>
+        
+        <div class="col-lg-2"></div>
+    </div>
+</div>
+{% endblock %}

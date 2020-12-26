@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container">
+    <nav class="navbar navbar-light bg-white">
+        <a class="navbar-brand" href="index.php"><img src="{{url_for('static', filename='img/fyi_logo1.png')}}" alt="FYI_TECH" width= "150px"></a>
+    </nav>
+</div>
+
+<div class="container">
+    <nav class="navbar nav justify-content-center">
+        <span class="navbar-brand mb-0 h1">Tips dan Trik</span>
+    </nav>
+    <div class="row">
+
+        <div class="col-lg-8 border">
+            <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-4"><img src="{{url_for('static', filename='img/ttt1.jpg')}}" alt="FYI_TECH" width= "215px"></div>
+            <div class="col-lg-4"><img src="{{url_for('static', filename='img/ttt2.jpg')}}" alt="FYI_TECH" width= "225px"></div>
+            <div class="col-lg-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-4"><img src="{{url_for('static', filename='img/ttt3.jpg')}}" alt="FYI_TECH" width= "218px"></div>
+                <div class="col-lg-4"><img src="{{url_for('static', filename='img/ttt4.jpg')}}" alt="FYI_TECH" width= "225px"></div>
+                <div class="col-lg-2"></div>
+                </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="list-group" id="myList" role="tablist">
+                <a class="list-group-item list-group-item-action active" data-toggle="list" href="#home" role="tab">Hardware</a>
+                <a class="list-group-item list-group-item-action" data-toggle="list" href="#profile" role="tab">Software</a>
+                <a class="list-group-item list-group-item-action" data-toggle="list" href="#messages" role="tab">Solusi</a>
+                <a class="list-group-item list-group-item-action" data-toggle="list" href="#settings" role="tab">test</a>
+            </div>
+
+            <div class="tab-content">
+            <div class="tab-pane active" id="home" role="tabpanel">...</div>
+            <div class="tab-pane" id="profile" role="tabpanel">admaknajfna</div>
+            <div class="tab-pane" id="messages" role="tabpanel">..aafafafa.</div>
+            <div class="tab-pane" id="settings" role="tabpanel">.afafafaf..</div>
+            </div>
+
+            <script>
+            $(function () {
+                $('#myList a:last-child').tab('show')
+            })
+            </script>
+        </div>
+    </div>
+</div>
+{% endblock %}

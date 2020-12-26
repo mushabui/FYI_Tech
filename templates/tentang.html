@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="container ">
+    <nav class="navbar nav justify-content-center">
+        <a class="navbar-brand" href="index.php"><img src="{{url_for('static', filename='img/fyi_logo.png')}}" alt="FYI_TECH" width= "200px"></a>
+    </nav>
+</div>
+
+<div class="container">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="col-lg-6">
+                <h2 class="display-4"><img src="{{url_for('static', filename='img/fyi_logo1.png')}}" alt="FYI_TECH" width= "250px"></h2>
+                <p class="lead">Memberikan informasi tentang ulasan laptop, harga laptop terbaruspesifikasi laptop berita tentang teknologi dan tips juga trik seputar laptop.</p>
+            </div>
+            <div class="col-lg-6">
+
+            </div>
+        </div>
+    </div>    
+</div>
+
+
+{% endblock %}
