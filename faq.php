@@ -49,9 +49,6 @@
                     <a class="nav-link " href="tipsdantrik.php">Tips dan Trik</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="tentang.php">Tentang</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link " href="faq.php">FAQ</a>
                 </li>
                 <li class="nav-item">

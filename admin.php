@@ -48,9 +48,6 @@
                     <a class="nav-link " href="tipsdantrik.php">Tips dan Trik</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="tentang.php">Tentang</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link " href="faq.php">FAQ</a>
                 </li>
                 <li class="nav-item">
@@ -58,5 +55,73 @@
                 </li>
             </ul>
         </div>
+    </nav>
+
+    <nav class="navbar">
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Tambah Produk</button>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Tambah Produk</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <form>
+            <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Brand</label>
+                <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Nama Produk</label>
+                <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Harga</label>
+                <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+                <label for="recipient-name" class="col-form-label">OS</label>
+                <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Layar</label>
+                <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Storage</label>
+                <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Grapich</label>
+                <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Berat</label>
+                <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Port</label>
+                <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+                <label for="message-text" class="col-form-label">Keterangan Produk</label>
+                <textarea class="form-control" id="message-text"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlFile1">Example file input</label>
+                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+              </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Upload Produk</button>
+        </div>
+        </div>
+    </div>
+    </div>
     </nav>
     </div>

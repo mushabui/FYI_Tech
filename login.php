@@ -1,10 +1,25 @@
 <?php
-if( isset($_POST["submit"]) ){
-    if( $_POST["username"] == "admin" && $_POST["password"] == "fajarijal") {
-        header("Location: admin.php");
-        exit;
-    } else {
-        $error = true;
+session_start();
+
+if(isset($_SESSION["login"])) {
+    header("Location: login.php")
+    exit;
+}
+
+if(isset($_POST["login"])) {
+    $username = $_POST["username"] == "admin";
+    $password = $_POST["password"] == "fajarijal";
+
+    $result = mysqli_query($conn, "SELECT * FROM user WHERE username = '$username");
+
+    if(mysqli_num_rows($result) === 1) {
+        $row = mysq;i_fetch_assoc($result);
+        if( password_verify($password, $row['password'])) {
+            $_SESSION["login"] = true;
+
+            header("Location: login.php");
+            exit;
+        }
     }
 }
 ?>
@@ -62,9 +77,7 @@ if( isset($_POST["submit"]) ){
                 <li class="nav-item">
                     <a class="nav-link " href="tipsdantrik.php">Tips dan Trik</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="tentang.php">Tentang</a>
-                </li>
+
                 <li class="nav-item">
                     <a class="nav-link " href="faq.php">FAQ</a>
                 </li>
