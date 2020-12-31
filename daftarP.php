@@ -7,6 +7,7 @@ $laptop = [
 		"vga" => "vega 3",
         "layar" => "15'",
         "harga" => "5.000.000,00",
+        "link" => ""
 	],
 	[
 		"nama" => "lenovo ideapad 330s ",
@@ -14,6 +15,7 @@ $laptop = [
 		"vga" => "vega 8",
         "layar" => "14'",
         "harga" => "5.000.000,00",
+        "link" => ""
     ],
     [
 		"nama" => "lenovo ideapad 22s ",
@@ -21,6 +23,7 @@ $laptop = [
 		"vga" => "vega 8",
         "layar" => "14'",
         "harga" => "5.000.000,00",
+        "link" => ""
     ],
     [
 		"nama" => "lenovo ideapad 3800s ",
@@ -28,6 +31,7 @@ $laptop = [
 		"vga" => "vega 8",
         "layar" => "14'",
         "harga" => "5.000.000,00",
+        "link" => ""
     ],
     [	
 		"nama" => "hp 15-db0011au",
@@ -35,13 +39,15 @@ $laptop = [
 		"vga" => "vega 3",
         "layar" => "15'",
         "harga" => "5.000.000,00",
-	],
+        "link" => "https://www.tokopedia.com/toko-gadgetz/laptop-hp-15-db0011au-amd-ryzen-3-vega-3-ram4gb-hdd500gb-like-new?refined=true&whid=0"
+	],  
 	[
 		"nama" => "lenovo ideapad 330s ",
 		"cpu" => "Ryzen 5 2500u",
 		"vga" => "vega 8",
         "layar" => "14'",
         "harga" => "5.000.000,00",
+        "link" => ""
     ],
     [
 		"nama" => "lenovo ideapad 22s ",
@@ -49,6 +55,7 @@ $laptop = [
 		"vga" => "vega 8",
         "layar" => "14'",
         "harga" => "5.000.000,00",
+        "link" => ""
     ],
     [
 		"nama" => "lenovo ideapad 3800s ",
@@ -56,6 +63,8 @@ $laptop = [
 		"vga" => "vega 8",
         "layar" => "14'",
         "harga" => "5.000.000,00",
+        "link" => ""
+        
 	]
 ];
 ?>
@@ -176,8 +185,7 @@ $laptop = [
                 </ul>
                 <div class="card-body">
                 <li class="list-group-item" style="background-colour:red">harga :<?= $ltp["harga"]; ?></li>
-                    <a href="https://www.tokopedia.com/toko-gadgetz/laptop-hp-15-db0011au-amd-ryzen-3-vega-3-ram4gb-hdd500gb-like-new?refined=true&whid=0" class="card-link">link toko</a>
-                    <a href="https://www.tokopedia.com/toko-gadgetz/laptop-hp-15-db0011au-amd-ryzen-3-vega-3-ram4gb-hdd500gb-like-new?refined=true&whid=0" class="card-link">link toko</a>
+                    <a href="<?= $ltp["link"];?>"class="card-link">Cek Toko</a>
                 </div>
             </div>
             <?php endforeach; ?>
