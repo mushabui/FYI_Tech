@@ -1,26 +1,26 @@
-<?php
+<?php 
+// mengaktifkan session php
 session_start();
 
-if(isset($_SESSION["login"])) {
-    header("Location: login.php")
-    exit;
-}
+// menghubungkan dengan koneksi
+include 'function.php';
 
-if(isset($_POST["login"])) {
-    $username = $_POST["username"] == "admin";
-    $password = $_POST["password"] == "fajarijal";
+// menangkap data yang dikirim dari form
+$username = $_POST['username'];
+$password = $_POST['password'];
 
-    $result = mysqli_query($conn, "SELECT * FROM user WHERE username = '$username");
+// menyeleksi data admin dengan username dan password yang sesuai
+$data = mysqli_query($function,"select * from admin where username='$username' and password='$password'");
 
-    if(mysqli_num_rows($result) === 1) {
-        $row = mysq;i_fetch_assoc($result);
-        if( password_verify($password, $row['password'])) {
-            $_SESSION["login"] = true;
+// menghitung jumlah data yang ditemukan
+$cek = mysqli_num_rows($data);
 
-            header("Location: login.php");
-            exit;
-        }
-    }
+if($cek > 0){
+	$_SESSION['username'] = $username;
+	$_SESSION['status'] = "login";
+	header("location:admin/index.php");
+}else{
+	header("location:index.php?pesan=gagal");
 }
 ?>
 
@@ -46,8 +46,6 @@ if(isset($_POST["login"])) {
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-
-    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
@@ -108,7 +106,7 @@ if(isset($_POST["login"])) {
 	<div class="row">
 		<div class="col-lg-4"></div>
 		<div class="col-lg-4">
-			<form action="/login/handle" method="POST">
+			<form action="function.php" method="POST">
     <div class="form-group">
       <label for="exampleInputEmail1">Username</label>
       <input name="username" type="text" class="form-control" id="exampleInputUsername1" aria-describedby="emailHelp">
