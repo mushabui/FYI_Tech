@@ -1,6 +1,10 @@
 <?php
 session_start();
 
+// menghubungkan dengan koneksi
+include 'function.php';
+
+
 ?>
 
 <!DOCTYPE html>
@@ -24,12 +28,10 @@ session_start();
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-
-    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-    -->
+
 
 
   <nav class="navbar navbar-light bg-light">
@@ -45,7 +47,7 @@ session_start();
         <div class="container">
             <ul class="nav nav-pills nav-justified">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php">Branda</a>
+                    <a class="nav-link" href="index.php">Beranda</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link " href="daftarP.php">Daftar Produk</a>
@@ -71,7 +73,7 @@ session_start();
                 <div class="col-lg-6">
                     <h2 class="display-4"><img src="img/fyi_logo1.png" alt="FYI_TECH" width= "250px"></h2>
                     <p class="lead">Memberikan informasi tentang ulasan laptop, harga laptop terbaruspesifikasi laptop berita tentang teknologi dan tips juga trik seputar laptop.</p>
-                    
+                    <a href="form.php">Survey Kepuasan Pelanggan</a>
                 </div>
                 <div class="col-lg-6">
                 <img src="img/iklan.png" alt="FYI_TECH" width= "100%">
