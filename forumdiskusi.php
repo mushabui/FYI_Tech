@@ -139,10 +139,19 @@
             </ul>
           </nav>
         <div class="contaner border">
-            <div class="row">
-                
+            <div class="">
+                <div class="card">
+                    <div class="card-header">
+                        User_Tampan69
+                    </div>
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                        <p>Saran Laptop yang bisa buat editing dan main games berat dong..?? tapi yg murah??..kira-kira apa yaa?</p>
+                        <footer class="blockquote-footer">Komentar: <cite title="Source Title">Mending rakit PC gann..</cite></footer>
+                        </blockquote>
+                    </div>
+                </div>
             </div>
-
         </div>
     </div>
 </div>

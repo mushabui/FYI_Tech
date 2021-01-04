@@ -73,14 +73,14 @@
         <div class="col-lg-8 border">
             <div class="row">
             <div class="col-lg-2"></div>
-            <div class="col-lg-4"><img src="img/ttt1.jpg" alt="FYI_TECH" width= "215px"></div>
-            <div class="col-lg-4"><img src="img/ttt2.jpg" alt="FYI_TECH" width= "225px"></div>
+            <div class="col-lg-4"><a href="https://duniagames.co.id/discover/article/sepuluh-vpn-gratis-terbaik-untuk-pc-bebas-akses-ke-berbagai-macam-situs-dan-media-sosial"><img src="img/ttt1.jpg" alt="FYI_TECH" width= "215px"></a></div>
+            <div class="col-lg-4"><a href="https://makinrajin.com/blog/cara-merawat-laptop/"><img src="img/ttt2.jpg" alt="FYI_TECH" width= "225px"></a></div>
             <div class="col-lg-2"></div>
             </div>
             <div class="row">
                 <div class="col-lg-2"></div>
-                <div class="col-lg-4"><img src="img/ttt3.jpg" alt="FYI_TECH" width= "218px"></div>
-                <div class="col-lg-4"><img src="img/ttt4.jpg" alt="FYI_TECH" width= "225px"></div>
+                <div class="col-lg-4"><a href="https://www.okedroid.com/2018/05/7-tips-dan-trik-tersembunyi-menggunakan-vlc-media-player-di-pc-laptop.html"><img src="img/ttt3.jpg" alt="FYI_TECH" width= "218px"></a></div>
+                <div class="col-lg-4"><a href="https://youtu.be/GVZPRVG8ncY"><img src="img/ttt4.jpg" alt="FYI_TECH" width= "225px"></a></div>
                 <div class="col-lg-2"></div>
                 </div>
         </div>
@@ -90,14 +90,14 @@
                     <a class="list-group-item list-group-item-action active" data-toggle="list" href="#home" role="tab">Hardware</a>
                     <a class="list-group-item list-group-item-action" data-toggle="list" href="#profile" role="tab">Software</a>
                     <a class="list-group-item list-group-item-action" data-toggle="list" href="#messages" role="tab">Solusi</a>
-                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#settings" role="tab">test</a>
+                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#settings" role="tab">lainnya</a>
                 </div>
 
                 <div class="tab-content">
-                <div class="tab-pane active" id="home" role="tabpanel">...</div>
-                <div class="tab-pane" id="profile" role="tabpanel">admaknajfna</div>
-                <div class="tab-pane" id="messages" role="tabpanel">..aafafafa.</div>
-                <div class="tab-pane" id="settings" role="tabpanel">.afafafaf..</div>
+                <div class="tab-pane active" id="home" role="tabpanel">tips dan trik seputar Hardware</div>
+                <div class="tab-pane" id="profile" role="tabpanel">tips dan trik seputar Software</div>
+                <div class="tab-pane" id="messages" role="tabpanel">solusi bagi laptop anda</div>
+                <div class="tab-pane" id="settings" role="tabpanel">....................</div>
                 </div>
 
                 <script>
