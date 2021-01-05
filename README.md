@@ -48,4 +48,4 @@ Beberapa fitur yang ada di website FYI Tech antara lain adalah:
 
 ### Mini Report
 
-Link Website: fyitech.rf.gd
+Link Website: [fyitech.rf.gd](http://fyitech.rf.gd/index.php)
