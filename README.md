@@ -19,7 +19,7 @@ Beberapa fitur yang ada di website FYI Tech antara lain adalah:
 
       > Disini user bisa melakukan pencarian laptop melalui filter dan kategori ataupun rekomendasi laptop dihalaman awal.
     
-2. Komparasi Laptop
+2. Komparasi Laptop(Coming Soon)
 
       >User bisa melakukan komparasi antara dua laptop.
         
