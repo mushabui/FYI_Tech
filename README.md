@@ -27,7 +27,7 @@ Beberapa fitur yang ada di website FYI Tech antara lain adalah:
 
       >Disini user akan diberikan Spesifikasi lengkap juga hasil tes dari laptop yang dipilih, user juga akan diberikan sambungan link online shop yang menjual produk tersebut.
 
-4. Forum Diskusi
+4. Forum Diskusi(Coming Soon)
 
       >Admin dan User bisa melakukan diskusi melalui forum. Baik admin atau user bisa melakukan CRUD diforum diskusi, diskusi yang ada bisa dilakukan melalui pencarian diskusi dan filter.
     
@@ -46,6 +46,10 @@ Beberapa fitur yang ada di website FYI Tech antara lain adalah:
 
 [Lihat Lainnya](https://github.com/mushabui/FYI_Tech/tree/main/Mockup%20Design)
 
-### Mini Report
+## Final Project Report
 
-Link Website: [fyitech.rf.gd](http://fyitech.rf.gd/index.php)
+- Final Project Report [Link](https://github.com/mushabui/FYI_Tech/tree/main/Final%20Report)
+
+## Deployment Site
+
+- Website Fyi_Tech : [fyitech.rf.gd](http://fyitech.rf.gd/)
