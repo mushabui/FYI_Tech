@@ -34,11 +34,11 @@ Beberapa fitur yang ada di website FYI Tech antara lain adalah:
     
 ## Use Case
 
-![Use Case](https://user-images.githubusercontent.com/62864891/99627313-a2207900-2a66-11eb-8f50-8a2d058a357e.png)
+!Use Case : [Link](https://user-images.githubusercontent.com/62864891/99627313-a2207900-2a66-11eb-8f50-8a2d058a357e.png)
 
 ## Activity Diagram
 
-![acticity diagram 1](https://user-images.githubusercontent.com/62864891/99627340-ae0c3b00-2a66-11eb-98ad-8535e49fe212.png)
+!Activity Diagram : [Link to see](https://user-images.githubusercontent.com/62864891/99627340-ae0c3b00-2a66-11eb-98ad-8535e49fe212.png)
 
 ## Design Mockup
 
@@ -46,7 +46,7 @@ Beberapa fitur yang ada di website FYI Tech antara lain adalah:
 
 [Lihat Lainnya](https://github.com/mushabui/FYI_Tech/tree/main/Mockup%20Design)
 
-### Mini Report
+## Mini Report
 
 [Report Phase 1](https://github.com/mushabui/FYI_Tech/tree/main/Report%20Phase%201)
 
@@ -55,3 +55,11 @@ Beberapa fitur yang ada di website FYI Tech antara lain adalah:
 [Diagram](https://github.com/mushabui/FYI_Tech/tree/main/Diagram)
 
 [Video Presentasi Portofolio](https://youtu.be/mzzoP064sZM)
+
+## Final Project Report
+
+- Final Project Report [Link](https://github.com/mushabui/FYI_Tech/tree/main/Final%20Report)
+
+## Deployment Site
+
+- Website Fyi_Tech : [fyitech.rf.gd](http://fyitech.rf.gd/)
